@@ -6,6 +6,40 @@ body {
     background-color: #272829 !important;
 }
 
+.btn-light-me {
+    color: #272829;
+    background-color: #FFF6E0 !important;
+    width: 100px !important; 
+    margin-left: 10px;
+    font-weight: bold !important;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 24px;
+    border: solid 2px #272829;
+    outline: none;
+    background-color: #FFF6E0;
+    color: #272829;
+    cursor: pointer;
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth fade-in and scale */
+}
+
+  
+  #myBtn:hover {
+    background-color: #d8d2c2;
+  }
+
 .light-text {
     color: #FFF6E0 !important;
 }
